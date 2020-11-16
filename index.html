@@ -11,21 +11,6 @@
 
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="header__inner">
-				<div class="logo"><b>ax</b><span class="logo__2_part">it</span></div>
-				<div class="nav">
-					<a href="#" class="nav__item">Features</a>
-					<a href="#" class="nav__item">About</a>
-					<a href="#" class="nav__item">Pricing</a>
-					<a href="#" class="nav__item">Reviews</a>
-					<a href="#" class="nav__item">Contact</a>
-				</div>
-			</div>
-		</div>
-	</header>
-
 
 	<div class="intro">
 		<div class="container">
@@ -45,13 +30,13 @@
 					
 				</div>
 				<div class="signup">
-					<div class="signup__inner">
-						<label for="name" class="signup__label"><b>Try Your <span class="signup__label__free">free</span> Trial Today</b></label>
+                    <form>
+                        <p for="name" class="signup__label"><b>Try Your <span class="signup__label__free">free</span> Trial Today</b></p>
 						<input type="text" name="name"  placeholder="Name" class="form__item">
 						<input type="email" name="email" placeholder="Email" class="form__item" >
 						<input type="password" name="password" placeholder="Password" class="form__item" >
 						<button type="submit" name="submit" class="signup__btn">Get Started</button>
-					</div>
+                    </form>
 				</div>
 				
 			</div>
@@ -82,9 +67,9 @@
 			<div class="feature-1">
 				<div class="feature-1__inner">
 					<div class="slider">
-						<div class="slid slid-1 " onclick="open__item(event, 'slider__item1')" id="defaultOpen">tab 1</div>
-						<div class="slid" onclick="open__item(event, 'slider__item2')">tab 2</div>
-						<div class="slid slid-3" onclick="open__item(event, 'slider__item3')">tab 3</div>
+						<div class="slide slide-1 " onclick="open__item(event, 'slider__item1')" id="defaultOpen">Tab 1</div>
+						<div class="slide" onclick="open__item(event, 'slider__item2')">Tab 2</div>
+						<div class="slide slide-3" onclick="open__item(event, 'slider__item3')">Tab 3</div>
 					</div>
 					<div class="slider__item " id="slider__item1">
 						<div class="feature-1__item">
