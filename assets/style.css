@@ -768,7 +768,7 @@ fieldset {
     /* Process */
     .process__inner {
         grid-row-gap: 20px;
-        -ms-grid-columns: (1fr) [3];
+        -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
     }
 
